@@ -1,0 +1,40 @@
+.title {
+    font-size: 30px;
+    font-weight: 200;
+    text: black;
+    text-align: center;
+    font: bold;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: 200;
+    color: blue;
+    text-align: center;
+    font: bold;
+
+}
+.container{
+    border:1px solid black ;
+    border-radius: 1px;
+}
+.stock{
+    font:bold;
+    font-size: 30px;
+    font-weight: 200;
+    color: green;
+    text-align:center
+    
+
+
+}
+.stock1{
+    font:bold;
+    font-size: 30px;
+    font-weight: 200;
+    color:red;
+    text-align:center
+}
+.main{
+    display: flex;
+}

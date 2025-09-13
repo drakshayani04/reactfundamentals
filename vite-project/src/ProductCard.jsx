@@ -1,11 +1,19 @@
-function ProductCard({ProductName,price,available}) {
-
-   
+import "./Avatar.css"
+function ProductCard({ Name, Course, Rollno}) {
+    const tstyle={
+    fontSize:"30px",
+    fontWeight: "200",
+    color:"red"
+    }
+     
     return (
-        <div>
-            <p>ProductName:{ProductName}</p>
-            <p>Price:{price}</p>
-            <p>{available === true ? "IN STOCK":"OUT OF STOCK"}</p>
+   
+        <div className="container">
+            <img className="img1" src="./profile-icon-design-free-vector.jpg" />
+            <p style={tstyle}>{Name}</p>
+            <p className="course">Course:<a className="col">{Course}</a></p>
+            <p className="roll">Rollno:<a className="col">{Rollno}</a></p>
+           
         </div>
 
     )
